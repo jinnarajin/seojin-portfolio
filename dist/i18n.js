@@ -1,4 +1,4 @@
-export const language = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'ko';
+export const language = (new URLSearchParams(location.search).get('lang') || (navigator.language || '').toLowerCase()).startsWith('ko') ? 'ko' : 'en';
 export const english = language === 'en';
 const strings = {
 ko: {

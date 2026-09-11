@@ -1,6 +1,6 @@
 import { createFolklore } from './folklore.js?v=11';
 import { experience } from './experience.js';
-import { english, t, projectEnglish, localizePage } from './i18n.js?v=10';
+import { english, t, projectEnglish, localizePage } from './i18n.js?v=12';
 import * as THREE from './vendor/three.module.js';
 import * as CANNON from './vendor/cannon-es.js';
 const projects=[

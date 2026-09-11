@@ -18,7 +18,7 @@ Three.js + cannon-es 기반 3D 포트폴리오 전체 소스입니다.
 
     python3 -m http.server 4173 --directory dist
 
-브라우저에서 http://localhost:4173/?lang=ko 또는 http://localhost:4173/?lang=en 으로 접속하세요.
+브라우저에서 http://localhost:4173 으로 접속하세요. 브라우저 언어가 한국어면 한국어, 아니면 영어로 열리며 ?lang=ko 또는 ?lang=en 으로 강제할 수 있습니다.
 서버를 실행한 터미널은 사이트를 사용하는 동안 열어두세요.
 index.html을 직접 더블클릭하면 JavaScript 모듈이 정상적으로 로드되지 않을 수 있습니다.
 
