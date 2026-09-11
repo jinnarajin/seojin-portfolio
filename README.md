@@ -23,10 +23,6 @@ Three.js + cannon-es 기반 3D 포트폴리오 전체 소스입니다.
 index.html을 직접 더블클릭하면 JavaScript 모듈이 정상적으로 로드되지 않을 수 있습니다.
 
 ## Vercel 배포
-이 폴더를 GitHub 저장소에 올린 뒤 Vercel에서 해당 저장소를 가져오세요.
-Framework Preset은 Other, Output Directory는 dist입니다.
+저장소: https://github.com/jinnarajin/seojin-portfolio
+Vercel에서 이 저장소를 가져오면 됩니다. Framework Preset은 Other, Output Directory는 dist이며 vercel.json에 이미 설정되어 있습니다.
 별도 의존성 설치나 빌드 과정이 없는 정적 사이트입니다.
-vercel.json에 출력 디렉터리 설정을 포함했습니다.
-
-이 ZIP에는 기존 Sites의 연결 설정이나 Git 인증 정보가 포함되어 있지 않습니다.
-Vercel 배포와 접근 권한은 별도로 설정해야 합니다.
